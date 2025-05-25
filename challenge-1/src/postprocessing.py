@@ -1,3 +1,12 @@
+"""
+
+Author: Siddhant Bhardwaj
+Team Name: Siddhant Bhardwaj
+Team Members: Siddhant, Sivadhanushya
+Leaderboard Rank: 64
+
+"""
+
 import pandas as pd
 
 # Postprocessing module for soil classification

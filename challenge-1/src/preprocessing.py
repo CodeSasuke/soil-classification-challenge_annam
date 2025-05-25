@@ -1,3 +1,11 @@
+"""
+
+Author: Siddhant Bhardwaj
+Team Name: Siddhant Bhardwaj
+Team Members: Siddhant, Sivadhanushya
+Leaderboard Rank: 64
+"""
+
 import os
 import torch
 from PIL import Image
