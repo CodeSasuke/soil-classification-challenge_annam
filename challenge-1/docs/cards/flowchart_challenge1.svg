@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="476pt" height="1431pt" viewBox="0.00 0.00 476.00 1431.20">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1427.2)">
+<title>SoilClassificationPipeline</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1427.2 472,-1427.2 472,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_config</title>
+<path fill="none" stroke="#cccccc" d="M20,-1260.8C20,-1260.8 286,-1260.8 286,-1260.8 292,-1260.8 298,-1266.8 298,-1272.8 298,-1272.8 298,-1403.2 298,-1403.2 298,-1409.2 292,-1415.2 286,-1415.2 286,-1415.2 20,-1415.2 20,-1415.2 14,-1415.2 8,-1409.2 8,-1403.2 8,-1403.2 8,-1272.8 8,-1272.8 8,-1266.8 14,-1260.8 20,-1260.8"/>
+<text text-anchor="middle" x="153" y="-1398.6" font-family="Times,serif" font-size="14.00">Configuration</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_data_ingest</title>
+<path fill="none" stroke="#cccccc" d="M82,-1098.4C82,-1098.4 448,-1098.4 448,-1098.4 454,-1098.4 460,-1104.4 460,-1110.4 460,-1110.4 460,-1240.8 460,-1240.8 460,-1246.8 454,-1252.8 448,-1252.8 448,-1252.8 82,-1252.8 82,-1252.8 76,-1252.8 70,-1246.8 70,-1240.8 70,-1240.8 70,-1110.4 70,-1110.4 70,-1104.4 76,-1098.4 82,-1098.4"/>
+<text text-anchor="middle" x="265" y="-1236.2" font-family="Times,serif" font-size="14.00">Data Ingestion &amp; EDA</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_preproc</title>
+<path fill="none" stroke="#cccccc" d="M90,-913.6C90,-913.6 252,-913.6 252,-913.6 258,-913.6 264,-919.6 264,-925.6 264,-925.6 264,-1078.4 264,-1078.4 264,-1084.4 258,-1090.4 252,-1090.4 252,-1090.4 90,-1090.4 90,-1090.4 84,-1090.4 78,-1084.4 78,-1078.4 78,-1078.4 78,-925.6 78,-925.6 78,-919.6 84,-913.6 90,-913.6"/>
+<text text-anchor="middle" x="171" y="-1073.8" font-family="Times,serif" font-size="14.00">Preprocessing &amp; Dataset</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_split</title>
+<path fill="none" stroke="#cccccc" d="M99,-828.8C99,-828.8 243,-828.8 243,-828.8 249,-828.8 255,-834.8 255,-840.8 255,-840.8 255,-893.6 255,-893.6 255,-899.6 249,-905.6 243,-905.6 243,-905.6 99,-905.6 99,-905.6 93,-905.6 87,-899.6 87,-893.6 87,-893.6 87,-840.8 87,-840.8 87,-834.8 93,-828.8 99,-828.8"/>
+<text text-anchor="middle" x="171" y="-889" font-family="Times,serif" font-size="14.00">Data Splitting</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_optuna</title>
+<path fill="none" stroke="#cccccc" d="M49,-488C49,-488 293,-488 293,-488 299,-488 305,-494 305,-500 305,-500 305,-808.8 305,-808.8 305,-814.8 299,-820.8 293,-820.8 293,-820.8 49,-820.8 49,-820.8 43,-820.8 37,-814.8 37,-808.8 37,-808.8 37,-500 37,-500 37,-494 43,-488 49,-488"/>
+<text text-anchor="middle" x="171" y="-804.2" font-family="Times,serif" font-size="14.00">Hyperparameter Tuning (Optuna)</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_final_train</title>
+<path fill="none" stroke="#cccccc" d="M86,-242.4C86,-242.4 256,-242.4 256,-242.4 262,-242.4 268,-248.4 268,-254.4 268,-254.4 268,-468 268,-468 268,-474 262,-480 256,-480 256,-480 86,-480 86,-480 80,-480 74,-474 74,-468 74,-468 74,-254.4 74,-254.4 74,-248.4 80,-242.4 86,-242.4"/>
+<text text-anchor="middle" x="171" y="-463.4" font-family="Times,serif" font-size="14.00">Final Model Training</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_evaluation</title>
+<path fill="none" stroke="#cccccc" d="M48,-8C48,-8 392,-8 392,-8 398,-8 404,-14 404,-20 404,-20 404,-222.4 404,-222.4 404,-228.4 398,-234.4 392,-234.4 392,-234.4 48,-234.4 48,-234.4 42,-234.4 36,-228.4 36,-222.4 36,-222.4 36,-20 36,-20 36,-14 42,-8 48,-8"/>
+<text text-anchor="middle" x="220" y="-217.8" font-family="Times,serif" font-size="14.00">Evaluation &amp; Inference</text>
+</g>
+<!-- C1 -->
+<g id="node1" class="node">
+<title>C1</title>
+<path fill="#f8f8f8" stroke="black" d="M278.14,-1382.4C278.14,-1382.4 27.86,-1382.4 27.86,-1382.4 21.86,-1382.4 15.86,-1376.4 15.86,-1370.4 15.86,-1370.4 15.86,-1352.8 15.86,-1352.8 15.86,-1346.8 21.86,-1340.8 27.86,-1340.8 27.86,-1340.8 278.14,-1340.8 278.14,-1340.8 284.14,-1340.8 290.14,-1346.8 290.14,-1352.8 290.14,-1352.8 290.14,-1370.4 290.14,-1370.4 290.14,-1376.4 284.14,-1382.4 278.14,-1382.4"/>
+<text text-anchor="middle" x="153" y="-1365.8" font-family="Helvetica,sans-Serif" font-size="14.00">Set Paths &amp; Params</text>
+<text text-anchor="middle" x="153" y="-1349" font-family="Helvetica,sans-Serif" font-size="14.00">(IMG_SIZE, NUM_CLASSES, DEVICE…)</text>
+</g>
+<!-- C2 -->
+<g id="node2" class="node">
+<title>C2</title>
+<path fill="#f8f8f8" stroke="black" d="M200.37,-1304.8C200.37,-1304.8 105.63,-1304.8 105.63,-1304.8 99.63,-1304.8 93.63,-1298.8 93.63,-1292.8 93.63,-1292.8 93.63,-1280.8 93.63,-1280.8 93.63,-1274.8 99.63,-1268.8 105.63,-1268.8 105.63,-1268.8 200.37,-1268.8 200.37,-1268.8 206.37,-1268.8 212.37,-1274.8 212.37,-1280.8 212.37,-1280.8 212.37,-1292.8 212.37,-1292.8 212.37,-1298.8 206.37,-1304.8 200.37,-1304.8"/>
+<text text-anchor="middle" x="153" y="-1282.6" font-family="Helvetica,sans-Serif" font-size="14.00">Seed Everything</text>
+</g>
+<!-- C1&#45;&gt;C2 -->
+<g id="edge1" class="edge">
+<title>C1-&gt;C2</title>
+<path fill="none" stroke="black" d="M153,-1340.32C153,-1332.95 153,-1324.46 153,-1316.5"/>
+<polygon fill="black" stroke="black" points="156.5,-1316.53 153,-1306.53 149.5,-1316.53 156.5,-1316.53"/>
+</g>
+<!-- A1 -->
+<g id="node3" class="node">
+<title>A1</title>
+<path fill="#f8f8f8" stroke="black" d="M215.92,-1220C215.92,-1220 90.08,-1220 90.08,-1220 84.08,-1220 78.08,-1214 78.08,-1208 78.08,-1208 78.08,-1190.4 78.08,-1190.4 78.08,-1184.4 84.08,-1178.4 90.08,-1178.4 90.08,-1178.4 215.92,-1178.4 215.92,-1178.4 221.92,-1178.4 227.92,-1184.4 227.92,-1190.4 227.92,-1190.4 227.92,-1208 227.92,-1208 227.92,-1214 221.92,-1220 215.92,-1220"/>
+<text text-anchor="middle" x="153" y="-1203.4" font-family="Helvetica,sans-Serif" font-size="14.00">Read train_labels.csv</text>
+<text text-anchor="middle" x="153" y="-1186.6" font-family="Helvetica,sans-Serif" font-size="14.00">&amp; test_ids.csv</text>
+</g>
+<!-- C2&#45;&gt;A1 -->
+<g id="edge2" class="edge">
+<title>C2-&gt;A1</title>
+<path fill="none" stroke="black" d="M153,-1268.48C153,-1257.89 153,-1244.03 153,-1231.57"/>
+<polygon fill="black" stroke="black" points="156.5,-1231.71 153,-1221.71 149.5,-1231.71 156.5,-1231.71"/>
+</g>
+<!-- B1 -->
+<g id="node5" class="node">
+<title>B1</title>
+<path fill="#f8f8f8" stroke="black" d="M251.81,-1142.4C251.81,-1142.4 90.19,-1142.4 90.19,-1142.4 84.19,-1142.4 78.19,-1136.4 78.19,-1130.4 78.19,-1130.4 78.19,-1118.4 78.19,-1118.4 78.19,-1112.4 84.19,-1106.4 90.19,-1106.4 90.19,-1106.4 251.81,-1106.4 251.81,-1106.4 257.81,-1106.4 263.81,-1112.4 263.81,-1118.4 263.81,-1118.4 263.81,-1130.4 263.81,-1130.4 263.81,-1136.4 257.81,-1142.4 251.81,-1142.4"/>
+<text text-anchor="middle" x="171" y="-1120.2" font-family="Helvetica,sans-Serif" font-size="14.00">Compute Class Distribution</text>
+</g>
+<!-- A1&#45;&gt;B1 -->
+<g id="edge3" class="edge">
+<title>A1-&gt;B1</title>
+<path fill="none" stroke="black" d="M158.01,-1177.92C159.88,-1170.37 162.03,-1161.66 164.04,-1153.53"/>
+<polygon fill="black" stroke="black" points="167.38,-1154.63 166.38,-1144.08 160.58,-1152.95 167.38,-1154.63"/>
+</g>
+<!-- A2 -->
+<g id="node4" class="node">
+<title>A2</title>
+<path fill="#f8f8f8" stroke="black" d="M439.92,-1220C439.92,-1220 258.08,-1220 258.08,-1220 252.08,-1220 246.08,-1214 246.08,-1208 246.08,-1208 246.08,-1190.4 246.08,-1190.4 246.08,-1184.4 252.08,-1178.4 258.08,-1178.4 258.08,-1178.4 439.92,-1178.4 439.92,-1178.4 445.92,-1178.4 451.92,-1184.4 451.92,-1190.4 451.92,-1190.4 451.92,-1208 451.92,-1208 451.92,-1214 445.92,-1220 439.92,-1220"/>
+<text text-anchor="middle" x="349" y="-1203.4" font-family="Helvetica,sans-Serif" font-size="14.00">Load images from TRAIN_DIR</text>
+<text text-anchor="middle" x="349" y="-1186.6" font-family="Helvetica,sans-Serif" font-size="14.00">&amp; TEST_DIR</text>
+</g>
+<!-- B2 -->
+<g id="node6" class="node">
+<title>B2</title>
+<path fill="#f8f8f8" stroke="black" d="M235.86,-1057.6C235.86,-1057.6 106.14,-1057.6 106.14,-1057.6 100.14,-1057.6 94.14,-1051.6 94.14,-1045.6 94.14,-1045.6 94.14,-1011.2 94.14,-1011.2 94.14,-1005.2 100.14,-999.2 106.14,-999.2 106.14,-999.2 235.86,-999.2 235.86,-999.2 241.86,-999.2 247.86,-1005.2 247.86,-1011.2 247.86,-1011.2 247.86,-1045.6 247.86,-1045.6 247.86,-1051.6 241.86,-1057.6 235.86,-1057.6"/>
+<text text-anchor="middle" x="171" y="-1041" font-family="Helvetica,sans-Serif" font-size="14.00">Define Transforms:</text>
+<text text-anchor="middle" x="171" y="-1024.2" font-family="Helvetica,sans-Serif" font-size="14.00">• train_transforms</text>
+<text text-anchor="middle" x="171" y="-1007.4" font-family="Helvetica,sans-Serif" font-size="14.00">• val_test_transforms</text>
+</g>
+<!-- B1&#45;&gt;B2 -->
+<g id="edge4" class="edge">
+<title>B1-&gt;B2</title>
+<path fill="none" stroke="black" d="M171,-1106.16C171,-1095.85 171,-1082.3 171,-1069.46"/>
+<polygon fill="black" stroke="black" points="174.5,-1069.49 171,-1059.49 167.5,-1069.49 174.5,-1069.49"/>
+</g>
+<!-- B3 -->
+<g id="node7" class="node">
+<title>B3</title>
+<path fill="#f8f8f8" stroke="black" d="M244.42,-963.2C244.42,-963.2 97.58,-963.2 97.58,-963.2 91.58,-963.2 85.58,-957.2 85.58,-951.2 85.58,-951.2 85.58,-933.6 85.58,-933.6 85.58,-927.6 91.58,-921.6 97.58,-921.6 97.58,-921.6 244.42,-921.6 244.42,-921.6 250.42,-921.6 256.42,-927.6 256.42,-933.6 256.42,-933.6 256.42,-951.2 256.42,-951.2 256.42,-957.2 250.42,-963.2 244.42,-963.2"/>
+<text text-anchor="middle" x="171" y="-946.6" font-family="Helvetica,sans-Serif" font-size="14.00">SoilDataset</text>
+<text text-anchor="middle" x="171" y="-929.8" font-family="Helvetica,sans-Serif" font-size="14.00">handles I/O &amp; transforms</text>
+</g>
+<!-- B2&#45;&gt;B3 -->
+<g id="edge5" class="edge">
+<title>B2-&gt;B3</title>
+<path fill="none" stroke="black" d="M171,-998.96C171,-991.25 171,-982.85 171,-974.98"/>
+<polygon fill="black" stroke="black" points="174.5,-975.1 171,-965.1 167.5,-975.1 174.5,-975.1"/>
+</g>
+<!-- D1 -->
+<g id="node8" class="node">
+<title>D1</title>
+<path fill="#f8f8f8" stroke="black" d="M235.47,-872.8C235.47,-872.8 106.53,-872.8 106.53,-872.8 100.53,-872.8 94.53,-866.8 94.53,-860.8 94.53,-860.8 94.53,-848.8 94.53,-848.8 94.53,-842.8 100.53,-836.8 106.53,-836.8 106.53,-836.8 235.47,-836.8 235.47,-836.8 241.47,-836.8 247.47,-842.8 247.47,-848.8 247.47,-848.8 247.47,-860.8 247.47,-860.8 247.47,-866.8 241.47,-872.8 235.47,-872.8"/>
+<text text-anchor="middle" x="171" y="-850.6" font-family="Helvetica,sans-Serif" font-size="14.00">Stratified train/val split</text>
+</g>
+<!-- B3&#45;&gt;D1 -->
+<g id="edge6" class="edge">
+<title>B3-&gt;D1</title>
+<path fill="none" stroke="black" d="M171,-921.11C171,-910.14 171,-896.4 171,-884.36"/>
+<polygon fill="black" stroke="black" points="174.5,-884.57 171,-874.57 167.5,-884.57 174.5,-884.57"/>
+</g>
+<!-- E1 -->
+<g id="node9" class="node">
+<title>E1</title>
+<path fill="#f8f8f8" stroke="black" d="M284.88,-788C284.88,-788 57.12,-788 57.12,-788 51.12,-788 45.12,-782 45.12,-776 45.12,-776 45.12,-758.4 45.12,-758.4 45.12,-752.4 51.12,-746.4 57.12,-746.4 57.12,-746.4 284.88,-746.4 284.88,-746.4 290.88,-746.4 296.88,-752.4 296.88,-758.4 296.88,-758.4 296.88,-776 296.88,-776 296.88,-782 290.88,-788 284.88,-788"/>
+<text text-anchor="middle" x="171" y="-771.4" font-family="Helvetica,sans-Serif" font-size="14.00">Create Study</text>
+<text text-anchor="middle" x="171" y="-754.6" font-family="Helvetica,sans-Serif" font-size="14.00">(25 trials, pruner: Successive Halving)</text>
+</g>
+<!-- D1&#45;&gt;E1 -->
+<g id="edge7" class="edge">
+<title>D1-&gt;E1</title>
+<path fill="none" stroke="black" d="M171,-836.48C171,-825.89 171,-812.03 171,-799.57"/>
+<polygon fill="black" stroke="black" points="174.5,-799.71 171,-789.71 167.5,-799.71 174.5,-799.71"/>
+</g>
+<!-- E2 -->
+<g id="node10" class="node">
+<title>E2</title>
+<path fill="#f8f8f8" stroke="black" d="M277.9,-710.4C277.9,-710.4 64.1,-710.4 64.1,-710.4 58.1,-710.4 52.1,-704.4 52.1,-698.4 52.1,-698.4 52.1,-580 52.1,-580 52.1,-574 58.1,-568 64.1,-568 64.1,-568 277.9,-568 277.9,-568 283.9,-568 289.9,-574 289.9,-580 289.9,-580 289.9,-698.4 289.9,-698.4 289.9,-704.4 283.9,-710.4 277.9,-710.4"/>
+<text text-anchor="middle" x="171" y="-693.8" font-family="Helvetica,sans-Serif" font-size="14.00">Objective(trial):</text>
+<text text-anchor="middle" x="171" y="-677" font-family="Helvetica,sans-Serif" font-size="14.00">• Suggest HPs (lr, optimizer,</text>
+<text text-anchor="middle" x="171" y="-660.2" font-family="Helvetica,sans-Serif" font-size="14.00">  batch_size, etc.)</text>
+<text text-anchor="middle" x="171" y="-643.4" font-family="Helvetica,sans-Serif" font-size="14.00">• Build DataLoaders</text>
+<text text-anchor="middle" x="171" y="-626.6" font-family="Helvetica,sans-Serif" font-size="14.00">• Load &amp; freeze/unfreezeEffNet-B1</text>
+<text text-anchor="middle" x="171" y="-609.8" font-family="Helvetica,sans-Serif" font-size="14.00">• Train up to 12 epochs</text>
+<text text-anchor="middle" x="171" y="-593" font-family="Helvetica,sans-Serif" font-size="14.00">• Eval min-class F1</text>
+<text text-anchor="middle" x="171" y="-576.2" font-family="Helvetica,sans-Serif" font-size="14.00">• Prune on OOM/low F1</text>
+</g>
+<!-- E1&#45;&gt;E2 -->
+<g id="edge8" class="edge">
+<title>E1-&gt;E2</title>
+<path fill="none" stroke="black" d="M171,-745.96C171,-739.06 171,-730.87 171,-722.14"/>
+<polygon fill="black" stroke="black" points="174.5,-722.38 171,-712.38 167.5,-722.38 174.5,-722.38"/>
+</g>
+<!-- E3 -->
+<g id="node11" class="node">
+<title>E3</title>
+<path fill="#f8f8f8" stroke="black" d="M231.98,-532C231.98,-532 110.02,-532 110.02,-532 104.02,-532 98.02,-526 98.02,-520 98.02,-520 98.02,-508 98.02,-508 98.02,-502 104.02,-496 110.02,-496 110.02,-496 231.98,-496 231.98,-496 237.98,-496 243.98,-502 243.98,-508 243.98,-508 243.98,-520 243.98,-520 243.98,-526 237.98,-532 231.98,-532"/>
+<text text-anchor="middle" x="171" y="-509.8" font-family="Helvetica,sans-Serif" font-size="14.00">Record best_params</text>
+</g>
+<!-- E2&#45;&gt;E3 -->
+<g id="edge9" class="edge">
+<title>E2-&gt;E3</title>
+<path fill="none" stroke="black" d="M171,-567.61C171,-559.2 171,-551.03 171,-543.72"/>
+<polygon fill="black" stroke="black" points="174.5,-543.88 171,-533.88 167.5,-543.88 174.5,-543.88"/>
+</g>
+<!-- F1 -->
+<g id="node12" class="node">
+<title>F1</title>
+<path fill="#f8f8f8" stroke="black" d="M247.93,-447.2C247.93,-447.2 94.07,-447.2 94.07,-447.2 88.07,-447.2 82.07,-441.2 82.07,-435.2 82.07,-435.2 82.07,-417.6 82.07,-417.6 82.07,-411.6 88.07,-405.6 94.07,-405.6 94.07,-405.6 247.93,-405.6 247.93,-405.6 253.93,-405.6 259.93,-411.6 259.93,-417.6 259.93,-417.6 259.93,-435.2 259.93,-435.2 259.93,-441.2 253.93,-447.2 247.93,-447.2"/>
+<text text-anchor="middle" x="171" y="-430.6" font-family="Helvetica,sans-Serif" font-size="14.00">Instantiate EfficientNet-B1</text>
+<text text-anchor="middle" x="171" y="-413.8" font-family="Helvetica,sans-Serif" font-size="14.00">with best_params</text>
+</g>
+<!-- E3&#45;&gt;F1 -->
+<g id="edge10" class="edge">
+<title>E3-&gt;F1</title>
+<path fill="none" stroke="black" d="M171,-495.68C171,-485.09 171,-471.23 171,-458.77"/>
+<polygon fill="black" stroke="black" points="174.5,-458.91 171,-448.91 167.5,-458.91 174.5,-458.91"/>
+</g>
+<!-- F2 -->
+<g id="node13" class="node">
+<title>F2</title>
+<path fill="#f8f8f8" stroke="black" d="M222.64,-369.6C222.64,-369.6 119.36,-369.6 119.36,-369.6 113.36,-369.6 107.36,-363.6 107.36,-357.6 107.36,-357.6 107.36,-340 107.36,-340 107.36,-334 113.36,-328 119.36,-328 119.36,-328 222.64,-328 222.64,-328 228.64,-328 234.64,-334 234.64,-340 234.64,-340 234.64,-357.6 234.64,-357.6 234.64,-363.6 228.64,-369.6 222.64,-369.6"/>
+<text text-anchor="middle" x="171" y="-353" font-family="Helvetica,sans-Serif" font-size="14.00">Train 30 epochs</text>
+<text text-anchor="middle" x="171" y="-336.2" font-family="Helvetica,sans-Serif" font-size="14.00">with LR scheduler</text>
+</g>
+<!-- F1&#45;&gt;F2 -->
+<g id="edge11" class="edge">
+<title>F1-&gt;F2</title>
+<path fill="none" stroke="black" d="M171,-405.14C171,-397.79 171,-389.31 171,-381.23"/>
+<polygon fill="black" stroke="black" points="174.5,-381.37 171,-371.37 167.5,-381.37 174.5,-381.37"/>
+</g>
+<!-- F3 -->
+<g id="node14" class="node">
+<title>F3</title>
+<path fill="#f8f8f8" stroke="black" d="M226.51,-292C226.51,-292 115.49,-292 115.49,-292 109.49,-292 103.49,-286 103.49,-280 103.49,-280 103.49,-262.4 103.49,-262.4 103.49,-256.4 109.49,-250.4 115.49,-250.4 115.49,-250.4 226.51,-250.4 226.51,-250.4 232.51,-250.4 238.51,-256.4 238.51,-262.4 238.51,-262.4 238.51,-280 238.51,-280 238.51,-286 232.51,-292 226.51,-292"/>
+<text text-anchor="middle" x="171" y="-275.4" font-family="Helvetica,sans-Serif" font-size="14.00">Save checkpoint</text>
+<text text-anchor="middle" x="171" y="-258.6" font-family="Helvetica,sans-Serif" font-size="14.00">(best min-class F1)</text>
+</g>
+<!-- F2&#45;&gt;F3 -->
+<g id="edge12" class="edge">
+<title>F2-&gt;F3</title>
+<path fill="none" stroke="black" d="M171,-327.54C171,-320.19 171,-311.71 171,-303.63"/>
+<polygon fill="black" stroke="black" points="174.5,-303.77 171,-293.77 167.5,-303.77 174.5,-303.77"/>
+</g>
+<!-- G1 -->
+<g id="node15" class="node">
+<title>G1</title>
+<path fill="#f8f8f8" stroke="black" d="M233.16,-201.6C233.16,-201.6 108.84,-201.6 108.84,-201.6 102.84,-201.6 96.84,-195.6 96.84,-189.6 96.84,-189.6 96.84,-177.6 96.84,-177.6 96.84,-171.6 102.84,-165.6 108.84,-165.6 108.84,-165.6 233.16,-165.6 233.16,-165.6 239.16,-165.6 245.16,-171.6 245.16,-177.6 245.16,-177.6 245.16,-189.6 245.16,-189.6 245.16,-195.6 239.16,-201.6 233.16,-201.6"/>
+<text text-anchor="middle" x="171" y="-179.4" font-family="Helvetica,sans-Serif" font-size="14.00">Load best checkpoint</text>
+</g>
+<!-- F3&#45;&gt;G1 -->
+<g id="edge13" class="edge">
+<title>F3-&gt;G1</title>
+<path fill="none" stroke="black" d="M171,-249.91C171,-238.94 171,-225.2 171,-213.16"/>
+<polygon fill="black" stroke="black" points="174.5,-213.37 171,-203.37 167.5,-213.37 174.5,-213.37"/>
+</g>
+<!-- G2 -->
+<g id="node16" class="node">
+<title>G2</title>
+<path fill="#f8f8f8" stroke="black" d="M230.05,-129.6C230.05,-129.6 55.95,-129.6 55.95,-129.6 49.95,-129.6 43.95,-123.6 43.95,-117.6 43.95,-117.6 43.95,-100 43.95,-100 43.95,-94 49.95,-88 55.95,-88 55.95,-88 230.05,-88 230.05,-88 236.05,-88 242.05,-94 242.05,-100 242.05,-100 242.05,-117.6 242.05,-117.6 242.05,-123.6 236.05,-129.6 230.05,-129.6"/>
+<text text-anchor="middle" x="143" y="-113" font-family="Helvetica,sans-Serif" font-size="14.00">Validate: classification_report</text>
+<text text-anchor="middle" x="143" y="-96.2" font-family="Helvetica,sans-Serif" font-size="14.00">&amp; confusion_matrix</text>
+</g>
+<!-- G1&#45;&gt;G2 -->
+<g id="edge14" class="edge">
+<title>G1-&gt;G2</title>
+<path fill="none" stroke="black" d="M164.36,-165.35C161.53,-157.98 158.13,-149.15 154.89,-140.72"/>
+<polygon fill="black" stroke="black" points="158.18,-139.52 151.32,-131.44 151.65,-142.03 158.18,-139.52"/>
+</g>
+<!-- G3 -->
+<g id="node17" class="node">
+<title>G3</title>
+<path fill="#f8f8f8" stroke="black" d="M383.53,-126.8C383.53,-126.8 272.47,-126.8 272.47,-126.8 266.47,-126.8 260.47,-120.8 260.47,-114.8 260.47,-114.8 260.47,-102.8 260.47,-102.8 260.47,-96.8 266.47,-90.8 272.47,-90.8 272.47,-90.8 383.53,-90.8 383.53,-90.8 389.53,-90.8 395.53,-96.8 395.53,-102.8 395.53,-102.8 395.53,-114.8 395.53,-114.8 395.53,-120.8 389.53,-126.8 383.53,-126.8"/>
+<text text-anchor="middle" x="328" y="-104.6" font-family="Helvetica,sans-Serif" font-size="14.00">Predict on Test Set</text>
+</g>
+<!-- G1&#45;&gt;G3 -->
+<g id="edge15" class="edge">
+<title>G1-&gt;G3</title>
+<path fill="none" stroke="black" d="M208.61,-165.16C230.08,-155.2 257.22,-142.62 280.2,-131.96"/>
+<polygon fill="black" stroke="black" points="281.46,-135.24 289.06,-127.86 278.51,-128.89 281.46,-135.24"/>
+</g>
+<!-- G4 -->
+<g id="node18" class="node">
+<title>G4</title>
+<path fill="#f8f8f8" stroke="black" d="M383.63,-52C383.63,-52 252.37,-52 252.37,-52 246.37,-52 240.37,-46 240.37,-40 240.37,-40 240.37,-28 240.37,-28 240.37,-22 246.37,-16 252.37,-16 252.37,-16 383.63,-16 383.63,-16 389.63,-16 395.63,-22 395.63,-28 395.63,-28 395.63,-40 395.63,-40 395.63,-46 389.63,-52 383.63,-52"/>
+<text text-anchor="middle" x="318" y="-29.8" font-family="Helvetica,sans-Serif" font-size="14.00">Write submission CSV</text>
+</g>
+<!-- G3&#45;&gt;G4 -->
+<g id="edge16" class="edge">
+<title>G3-&gt;G4</title>
+<path fill="none" stroke="black" d="M325.63,-90.55C324.53,-82.54 323.19,-72.8 321.95,-63.72"/>
+<polygon fill="black" stroke="black" points="325.42,-63.31 320.59,-53.88 318.49,-64.26 325.42,-63.31"/>
+</g>
+</g>
+</svg>
