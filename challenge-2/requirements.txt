@@ -1,0 +1,23 @@
+# Core libraries for data handling and scientific computing
+pandas
+numpy
+scikit-learn
+
+# Image processing
+Pillow
+
+# Deep Learning and CLIP model
+torch
+torchvision
+torchaudio
+transformers
+
+# Plotting
+matplotlib
+seaborn
+
+# Progress bar
+tqdm
+
+# For potential use in Jupyter notebooks (displaying HTML/images)
+IPython

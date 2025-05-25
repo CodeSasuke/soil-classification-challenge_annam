@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2355pt" height="442pt" viewBox="0.00 0.00 2354.79 442.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 438)">
+<title>CLIP_One_Class_Architecture</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-438 2350.79,-438 2350.79,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_DataSources</title>
+<polygon fill="lightgrey" stroke="lightgrey" points="8,-67 8,-426 154.48,-426 154.48,-67 8,-67"/>
+<text text-anchor="middle" x="81.24" y="-409.4" font-family="Times,serif" font-size="14.00">Data Sources</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_CoreCLIP</title>
+<polygon fill="lightblue" stroke="lightblue" points="271,-163 271,-273 1169.55,-273 1169.55,-163 271,-163"/>
+<text text-anchor="middle" x="720.28" y="-256.4" font-family="Times,serif" font-size="14.00">Core CLIP Processing</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_TrainingPhase</title>
+<polygon fill="lightgoldenrodyellow" stroke="lightgoldenrodyellow" points="1324.6,-265 1324.6,-375 2338.79,-375 2338.79,-265 1324.6,-265"/>
+<text text-anchor="middle" x="1831.7" y="-358.4" font-family="Times,serif" font-size="14.00">'Training' Phase Logic</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_InferencePhase</title>
+<polygon fill="lightcyan" stroke="lightcyan" points="1346.01,-42 1346.01,-152 2082.85,-152 2082.85,-42 1346.01,-42"/>
+<text text-anchor="middle" x="1714.43" y="-135.4" font-family="Times,serif" font-size="14.00">Inference Phase Logic</text>
+</g>
+<!-- Train_Labels_CSV -->
+<g id="node1" class="node">
+<title>Train_Labels_CSV</title>
+<path fill="lightyellow" stroke="black" d="M115.03,-393C115.03,-393 47.45,-393 47.45,-393 41.45,-393 35.45,-387 35.45,-381 35.45,-381 35.45,-369 35.45,-369 35.45,-363 41.45,-357 47.45,-357 47.45,-357 115.03,-357 115.03,-357 121.03,-357 127.03,-363 127.03,-369 127.03,-369 127.03,-381 127.03,-381 127.03,-387 121.03,-393 115.03,-393"/>
+<text text-anchor="middle" x="81.24" y="-378" font-family="Helvetica,sans-Serif" font-size="10.00">Training Labels</text>
+<text text-anchor="middle" x="81.24" y="-366" font-family="Helvetica,sans-Serif" font-size="10.00">(train_labels.csv)</text>
+</g>
+<!-- Image_Loader_PIL -->
+<g id="node5" class="node">
+<title>Image_Loader_PIL</title>
+<path fill="aliceblue" stroke="black" d="M349.16,-240C349.16,-240 291,-240 291,-240 285,-240 279,-234 279,-228 279,-228 279,-216 279,-216 279,-210 285,-204 291,-204 291,-204 349.16,-204 349.16,-204 355.16,-204 361.16,-210 361.16,-216 361.16,-216 361.16,-228 361.16,-228 361.16,-234 355.16,-240 349.16,-240"/>
+<text text-anchor="middle" x="320.08" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">Image Loading</text>
+<text text-anchor="middle" x="320.08" y="-213" font-family="Helvetica,sans-Serif" font-size="10.00">(PIL)</text>
+</g>
+<!-- Train_Labels_CSV&#45;&gt;Image_Loader_PIL -->
+<g id="edge1" class="edge">
+<title>Train_Labels_CSV-&gt;Image_Loader_PIL</title>
+<path fill="none" stroke="black" d="M127.29,-375C196.7,-375 320.08,-375 320.08,-375 320.08,-375 320.08,-251.97 320.08,-251.97"/>
+<polygon fill="black" stroke="black" points="323.58,-251.97 320.08,-241.97 316.58,-251.97 323.58,-251.97"/>
+<text text-anchor="middle" x="212.74" y="-367.7" font-family="Helvetica,sans-Serif" font-size="9.00">Image IDs</text>
+</g>
+<!-- Training_Images_Dir -->
+<g id="node2" class="node">
+<title>Training_Images_Dir</title>
+<path fill="lightyellow" stroke="black" d="M134.48,-299C134.48,-299 28,-299 28,-299 22,-299 16,-293 16,-287 16,-287 16,-275 16,-275 16,-269 22,-263 28,-263 28,-263 134.48,-263 134.48,-263 140.48,-263 146.48,-269 146.48,-275 146.48,-275 146.48,-287 146.48,-287 146.48,-293 140.48,-299 134.48,-299"/>
+<text text-anchor="middle" x="81.24" y="-284" font-family="Helvetica,sans-Serif" font-size="10.00">Training Images Directory</text>
+<text text-anchor="middle" x="81.24" y="-272" font-family="Helvetica,sans-Serif" font-size="10.00">(Soil Only)</text>
+</g>
+<!-- Training_Images_Dir&#45;&gt;Image_Loader_PIL -->
+<g id="edge2" class="edge">
+<title>Training_Images_Dir-&gt;Image_Loader_PIL</title>
+<path fill="none" stroke="black" d="M142.31,-262.58C142.31,-247.39 142.31,-228.33 142.31,-228.33 142.31,-228.33 267.34,-228.33 267.34,-228.33"/>
+<polygon fill="black" stroke="black" points="267.34,-231.83 277.34,-228.33 267.34,-224.83 267.34,-231.83"/>
+<text text-anchor="middle" x="212.74" y="-278.7" font-family="Helvetica,sans-Serif" font-size="9.00">Image Files</text>
+</g>
+<!-- Test_IDs_CSV -->
+<g id="node3" class="node">
+<title>Test_IDs_CSV</title>
+<path fill="lightyellow" stroke="black" d="M106.69,-205C106.69,-205 55.79,-205 55.79,-205 49.79,-205 43.79,-199 43.79,-193 43.79,-193 43.79,-181 43.79,-181 43.79,-175 49.79,-169 55.79,-169 55.79,-169 106.69,-169 106.69,-169 112.69,-169 118.69,-175 118.69,-181 118.69,-181 118.69,-193 118.69,-193 118.69,-199 112.69,-205 106.69,-205"/>
+<text text-anchor="middle" x="81.24" y="-190" font-family="Helvetica,sans-Serif" font-size="10.00">Test IDs</text>
+<text text-anchor="middle" x="81.24" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">(test_ids.csv)</text>
+</g>
+<!-- Test_IDs_CSV&#45;&gt;Image_Loader_PIL -->
+<g id="edge3" class="edge">
+<title>Test_IDs_CSV-&gt;Image_Loader_PIL</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M119.09,-200C186.43,-200 320.08,-200 320.08,-200 320.08,-200 320.08,-200.38 320.08,-200.38"/>
+<polygon fill="black" stroke="black" points="316.58,-192.32 320.08,-202.32 323.58,-192.32 316.58,-192.32"/>
+<text text-anchor="middle" x="212.74" y="-194.7" font-family="Helvetica,sans-Serif" font-size="9.00">Image IDs</text>
+</g>
+<!-- Test_Images_Dir -->
+<g id="node4" class="node">
+<title>Test_Images_Dir</title>
+<path fill="lightyellow" stroke="black" d="M126.14,-111C126.14,-111 36.34,-111 36.34,-111 30.34,-111 24.34,-105 24.34,-99 24.34,-99 24.34,-87 24.34,-87 24.34,-81 30.34,-75 36.34,-75 36.34,-75 126.14,-75 126.14,-75 132.14,-75 138.14,-81 138.14,-87 138.14,-87 138.14,-99 138.14,-99 138.14,-105 132.14,-111 126.14,-111"/>
+<text text-anchor="middle" x="81.24" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">Test Images Directory</text>
+</g>
+<!-- Test_Images_Dir&#45;&gt;Image_Loader_PIL -->
+<g id="edge4" class="edge">
+<title>Test_Images_Dir-&gt;Image_Loader_PIL</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M128.42,-111.25C128.42,-145.65 128.42,-216.67 128.42,-216.67 128.42,-216.67 267.45,-216.67 267.45,-216.67"/>
+<polygon fill="black" stroke="black" points="267.45,-220.17 277.45,-216.67 267.45,-213.17 267.45,-220.17"/>
+<text text-anchor="middle" x="212.74" y="-110.7" font-family="Helvetica,sans-Serif" font-size="9.00">Image Files</text>
+</g>
+<!-- CLIP_Processor -->
+<g id="node6" class="node">
+<title>CLIP_Processor</title>
+<path fill="aliceblue" stroke="black" d="M588.97,-240C588.97,-240 509.18,-240 509.18,-240 503.18,-240 497.18,-234 497.18,-228 497.18,-228 497.18,-216 497.18,-216 497.18,-210 503.18,-204 509.18,-204 509.18,-204 588.97,-204 588.97,-204 594.97,-204 600.97,-210 600.97,-216 600.97,-216 600.97,-228 600.97,-228 600.97,-234 594.97,-240 588.97,-240"/>
+<text text-anchor="middle" x="549.08" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">CLIP Processor</text>
+<text text-anchor="middle" x="549.08" y="-213" font-family="Helvetica,sans-Serif" font-size="10.00">(Resize, Normalize)</text>
+</g>
+<!-- Image_Loader_PIL&#45;&gt;CLIP_Processor -->
+<g id="edge5" class="edge">
+<title>Image_Loader_PIL-&gt;CLIP_Processor</title>
+<path fill="none" stroke="black" d="M361.55,-222C361.55,-222 485.55,-222 485.55,-222"/>
+<polygon fill="black" stroke="black" points="485.55,-225.5 495.55,-222 485.55,-218.5 485.55,-225.5"/>
+<text text-anchor="middle" x="429.17" y="-231.7" font-family="Helvetica,sans-Serif" font-size="9.00">Raw Images</text>
+</g>
+<!-- CLIP_Image_Encoder -->
+<g id="node7" class="node">
+<title>CLIP_Image_Encoder</title>
+<polygon fill="lightgreen" stroke="black" points="883.34,-240 774.52,-240 774.52,-236 770.52,-236 770.52,-232 774.52,-232 774.52,-212 770.52,-212 770.52,-208 774.52,-208 774.52,-204 883.34,-204 883.34,-240"/>
+<polyline fill="none" stroke="black" points="774.52,-236 778.52,-236 778.52,-232 774.52,-232"/>
+<polyline fill="none" stroke="black" points="774.52,-212 778.52,-212 778.52,-208 774.52,-208"/>
+<text text-anchor="middle" x="828.93" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">CLIP Image Encoder</text>
+<text text-anchor="middle" x="828.93" y="-213" font-family="Helvetica,sans-Serif" font-size="10.00">(ViT-B/16)</text>
+</g>
+<!-- CLIP_Processor&#45;&gt;CLIP_Image_Encoder -->
+<g id="edge6" class="edge">
+<title>CLIP_Processor-&gt;CLIP_Image_Encoder</title>
+<path fill="none" stroke="black" d="M601.39,-222C601.39,-222 762.97,-222 762.97,-222"/>
+<polygon fill="black" stroke="black" points="762.97,-225.5 772.97,-222 762.97,-218.5 762.97,-225.5"/>
+<text text-anchor="middle" x="687.74" y="-231.7" font-family="Helvetica,sans-Serif" font-size="9.00">Preprocessed Images</text>
+</g>
+<!-- Extracted_Embeddings -->
+<g id="node8" class="node">
+<title>Extracted_Embeddings</title>
+<path fill="peachpuff" stroke="black" d="M1161.55,-236C1161.55,-238.21 1138.66,-240 1110.47,-240 1082.29,-240 1059.39,-238.21 1059.39,-236 1059.39,-236 1059.39,-200 1059.39,-200 1059.39,-197.79 1082.29,-196 1110.47,-196 1138.66,-196 1161.55,-197.79 1161.55,-200 1161.55,-200 1161.55,-236 1161.55,-236"/>
+<path fill="none" stroke="black" d="M1161.55,-236C1161.55,-233.79 1138.66,-232 1110.47,-232 1082.29,-232 1059.39,-233.79 1059.39,-236"/>
+<text text-anchor="middle" x="1110.47" y="-221" font-family="Helvetica,sans-Serif" font-size="10.00">Image Embeddings</text>
+<text text-anchor="middle" x="1110.47" y="-209" font-family="Helvetica,sans-Serif" font-size="10.00">(In-Memory/Temp)</text>
+</g>
+<!-- CLIP_Image_Encoder&#45;&gt;Extracted_Embeddings -->
+<g id="edge7" class="edge">
+<title>CLIP_Image_Encoder-&gt;Extracted_Embeddings</title>
+<path fill="none" stroke="black" d="M883.55,-222C883.55,-222 1047.81,-222 1047.81,-222"/>
+<polygon fill="black" stroke="black" points="1047.81,-225.5 1057.81,-222 1047.81,-218.5 1047.81,-225.5"/>
+<text text-anchor="middle" x="971.37" y="-231.7" font-family="Helvetica,sans-Serif" font-size="9.00">Semantic Embeddings</text>
+</g>
+<!-- Prototype_Calculator -->
+<g id="node9" class="node">
+<title>Prototype_Calculator</title>
+<path fill="ivory" stroke="black" d="M1476.67,-342C1476.67,-342 1344.6,-342 1344.6,-342 1338.6,-342 1332.6,-336 1332.6,-330 1332.6,-330 1332.6,-318 1332.6,-318 1332.6,-312 1338.6,-306 1344.6,-306 1344.6,-306 1476.67,-306 1476.67,-306 1482.67,-306 1488.67,-312 1488.67,-318 1488.67,-318 1488.67,-330 1488.67,-330 1488.67,-336 1482.67,-342 1476.67,-342"/>
+<text text-anchor="middle" x="1410.63" y="-327" font-family="Helvetica,sans-Serif" font-size="10.00">Soil Prototype Calculation</text>
+<text text-anchor="middle" x="1410.63" y="-315" font-family="Helvetica,sans-Serif" font-size="10.00">(Mean of Training Embeddings)</text>
+</g>
+<!-- Extracted_Embeddings&#45;&gt;Prototype_Calculator -->
+<g id="edge8" class="edge">
+<title>Extracted_Embeddings-&gt;Prototype_Calculator</title>
+<path fill="none" stroke="black" d="M1161.86,-225.33C1230.42,-225.33 1343.31,-225.33 1343.31,-225.33 1343.31,-225.33 1343.31,-294.39 1343.31,-294.39"/>
+<polygon fill="black" stroke="black" points="1339.81,-294.39 1343.31,-304.39 1346.81,-294.39 1339.81,-294.39"/>
+<text text-anchor="middle" x="1247.08" y="-319.7" font-family="Helvetica,sans-Serif" font-size="9.00">Training Embeddings</text>
+</g>
+<!-- Threshold_Determiner -->
+<g id="node10" class="node">
+<title>Threshold_Determiner</title>
+<path fill="ivory" stroke="black" d="M2103.98,-342C2103.98,-342 1959.14,-342 1959.14,-342 1953.14,-342 1947.14,-336 1947.14,-330 1947.14,-330 1947.14,-318 1947.14,-318 1947.14,-312 1953.14,-306 1959.14,-306 1959.14,-306 2103.98,-306 2103.98,-306 2109.98,-306 2115.98,-312 2115.98,-318 2115.98,-318 2115.98,-330 2115.98,-330 2115.98,-336 2109.98,-342 2103.98,-342"/>
+<text text-anchor="middle" x="2031.56" y="-327" font-family="Helvetica,sans-Serif" font-size="10.00">Similarity Threshold Determination</text>
+<text text-anchor="middle" x="2031.56" y="-315" font-family="Helvetica,sans-Serif" font-size="10.00">(Percentile of Training Similarities)</text>
+</g>
+<!-- Extracted_Embeddings&#45;&gt;Threshold_Determiner -->
+<g id="edge10" class="edge">
+<title>Extracted_Embeddings-&gt;Threshold_Determiner</title>
+<path fill="none" stroke="black" d="M1161.85,-210.67C1346.79,-210.67 1967.71,-210.67 1967.71,-210.67 1967.71,-210.67 1967.71,-294.03 1967.71,-294.03"/>
+<polygon fill="black" stroke="black" points="1964.21,-294.03 1967.71,-304.03 1971.21,-294.03 1964.21,-294.03"/>
+<text text-anchor="middle" x="1574.19" y="-220.7" font-family="Helvetica,sans-Serif" font-size="9.00">Training Embeddings</text>
+</g>
+<!-- Similarity_Comparer -->
+<g id="node13" class="node">
+<title>Similarity_Comparer</title>
+<path fill="azure" stroke="black" d="M1455.26,-119C1455.26,-119 1366.01,-119 1366.01,-119 1360.01,-119 1354.01,-113 1354.01,-107 1354.01,-107 1354.01,-95 1354.01,-95 1354.01,-89 1360.01,-83 1366.01,-83 1366.01,-83 1455.26,-83 1455.26,-83 1461.26,-83 1467.26,-89 1467.26,-95 1467.26,-95 1467.26,-107 1467.26,-107 1467.26,-113 1461.26,-119 1455.26,-119"/>
+<text text-anchor="middle" x="1410.63" y="-104" font-family="Helvetica,sans-Serif" font-size="10.00">Similarity Comparison</text>
+<text text-anchor="middle" x="1410.63" y="-92" font-family="Helvetica,sans-Serif" font-size="10.00">&amp; Classification</text>
+</g>
+<!-- Extracted_Embeddings&#45;&gt;Similarity_Comparer -->
+<g id="edge13" class="edge">
+<title>Extracted_Embeddings-&gt;Similarity_Comparer</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1110.47,-195.65C1110.47,-165.36 1110.47,-115 1110.47,-115 1110.47,-115 1342.31,-115 1342.31,-115"/>
+<polygon fill="black" stroke="black" points="1342.31,-118.5 1352.31,-115 1342.31,-111.5 1342.31,-118.5"/>
+<text text-anchor="middle" x="1247.08" y="-139.7" font-family="Helvetica,sans-Serif" font-size="9.00">Test Embeddings</text>
+</g>
+<!-- Soil_Prototype_File -->
+<g id="node11" class="node">
+<title>Soil_Prototype_File</title>
+<polygon fill="peachpuff" stroke="black" points="1760.04,-342 1687.78,-342 1687.78,-306 1766.04,-306 1766.04,-336 1760.04,-342"/>
+<polyline fill="none" stroke="black" points="1760.04,-342 1760.04,-336"/>
+<polyline fill="none" stroke="black" points="1766.04,-336 1760.04,-336"/>
+<text text-anchor="middle" x="1726.91" y="-327" font-family="Helvetica,sans-Serif" font-size="10.00">Soil Prototype</text>
+<text text-anchor="middle" x="1726.91" y="-315" font-family="Helvetica,sans-Serif" font-size="10.00">(.npy)</text>
+</g>
+<!-- Prototype_Calculator&#45;&gt;Soil_Prototype_File -->
+<g id="edge9" class="edge">
+<title>Prototype_Calculator-&gt;Soil_Prototype_File</title>
+<path fill="none" stroke="black" d="M1488.81,-330C1488.81,-330 1676.07,-330 1676.07,-330"/>
+<polygon fill="black" stroke="black" points="1676.07,-333.5 1686.07,-330 1676.07,-326.5 1676.07,-333.5"/>
+<text text-anchor="middle" x="1574.19" y="-333.7" font-family="Helvetica,sans-Serif" font-size="9.00">Saves</text>
+</g>
+<!-- Similarity_Threshold_File -->
+<g id="node12" class="node">
+<title>Similarity_Threshold_File</title>
+<polygon fill="peachpuff" stroke="black" points="2324.79,-342 2226.99,-342 2226.99,-306 2330.79,-306 2330.79,-336 2324.79,-342"/>
+<polyline fill="none" stroke="black" points="2324.79,-342 2324.79,-336"/>
+<polyline fill="none" stroke="black" points="2330.79,-336 2324.79,-336"/>
+<text text-anchor="middle" x="2278.89" y="-327" font-family="Helvetica,sans-Serif" font-size="10.00">Similarity Threshold</text>
+<text text-anchor="middle" x="2278.89" y="-315" font-family="Helvetica,sans-Serif" font-size="10.00">(.txt)</text>
+</g>
+<!-- Threshold_Determiner&#45;&gt;Similarity_Threshold_File -->
+<g id="edge12" class="edge">
+<title>Threshold_Determiner-&gt;Similarity_Threshold_File</title>
+<path fill="none" stroke="black" d="M2116.33,-324C2116.33,-324 2215.16,-324 2215.16,-324"/>
+<polygon fill="black" stroke="black" points="2215.16,-327.5 2225.16,-324 2215.16,-320.5 2215.16,-327.5"/>
+<text text-anchor="middle" x="2171.48" y="-333.7" font-family="Helvetica,sans-Serif" font-size="9.00">Saves</text>
+</g>
+<!-- Soil_Prototype_File&#45;&gt;Threshold_Determiner -->
+<g id="edge11" class="edge">
+<title>Soil_Prototype_File-&gt;Threshold_Determiner</title>
+<path fill="none" stroke="black" d="M1766.42,-324C1766.42,-324 1935.4,-324 1935.4,-324"/>
+<polygon fill="black" stroke="black" points="1935.4,-327.5 1945.4,-324 1935.4,-320.5 1935.4,-327.5"/>
+<text text-anchor="middle" x="1870.62" y="-333.7" font-family="Helvetica,sans-Serif" font-size="9.00">Uses Prototype</text>
+</g>
+<!-- Soil_Prototype_File&#45;&gt;Similarity_Comparer -->
+<g id="edge14" class="edge">
+<title>Soil_Prototype_File-&gt;Similarity_Comparer</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M1687.58,-318C1642.33,-318 1574.19,-318 1574.19,-318 1574.19,-318 1574.19,-107 1574.19,-107 1574.19,-107 1478.89,-107 1478.89,-107"/>
+<polygon fill="black" stroke="black" points="1478.89,-103.5 1468.89,-107 1478.89,-110.5 1478.89,-103.5"/>
+<text text-anchor="middle" x="1574.19" y="-36.7" font-family="Helvetica,sans-Serif" font-size="9.00">Loads Prototype</text>
+</g>
+<!-- Similarity_Threshold_File&#45;&gt;Similarity_Comparer -->
+<g id="edge15" class="edge">
+<title>Similarity_Threshold_File-&gt;Similarity_Comparer</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M2278.89,-305.51C2278.89,-293.86 2278.89,-281 2278.89,-281 2278.89,-281 1410.63,-281 1410.63,-281 1410.63,-281 1410.63,-130.76 1410.63,-130.76"/>
+<polygon fill="black" stroke="black" points="1414.13,-130.76 1410.63,-120.76 1407.13,-130.76 1414.13,-130.76"/>
+<text text-anchor="middle" x="1870.62" y="-2.7" font-family="Helvetica,sans-Serif" font-size="9.00">Loads Threshold</text>
+</g>
+<!-- Submission_Generator -->
+<g id="node14" class="node">
+<title>Submission_Generator</title>
+<path fill="azure" stroke="black" d="M1782.1,-119C1782.1,-119 1671.72,-119 1671.72,-119 1665.72,-119 1659.72,-113 1659.72,-107 1659.72,-107 1659.72,-95 1659.72,-95 1659.72,-89 1665.72,-83 1671.72,-83 1671.72,-83 1782.1,-83 1782.1,-83 1788.1,-83 1794.1,-89 1794.1,-95 1794.1,-95 1794.1,-107 1794.1,-107 1794.1,-113 1788.1,-119 1782.1,-119"/>
+<text text-anchor="middle" x="1726.91" y="-98" font-family="Helvetica,sans-Serif" font-size="10.00">Submission File Generator</text>
+</g>
+<!-- Similarity_Comparer&#45;&gt;Submission_Generator -->
+<g id="edge16" class="edge">
+<title>Similarity_Comparer-&gt;Submission_Generator</title>
+<path fill="none" stroke="black" d="M1467.54,-95C1467.54,-95 1647.96,-95 1647.96,-95"/>
+<polygon fill="black" stroke="black" points="1647.96,-98.5 1657.96,-95 1647.96,-91.5 1647.96,-98.5"/>
+<text text-anchor="middle" x="1574.19" y="-110.7" font-family="Helvetica,sans-Serif" font-size="9.00">Predicted Labels</text>
+</g>
+<!-- Submission_CSV -->
+<g id="node15" class="node">
+<title>Submission_CSV</title>
+<path fill="lightyellow" stroke="black" d="M2062.85,-119C2062.85,-119 2000.27,-119 2000.27,-119 1994.27,-119 1988.27,-113 1988.27,-107 1988.27,-107 1988.27,-95 1988.27,-95 1988.27,-89 1994.27,-83 2000.27,-83 2000.27,-83 2062.85,-83 2062.85,-83 2068.85,-83 2074.85,-89 2074.85,-95 2074.85,-95 2074.85,-107 2074.85,-107 2074.85,-113 2068.85,-119 2062.85,-119"/>
+<text text-anchor="middle" x="2031.56" y="-104" font-family="Helvetica,sans-Serif" font-size="10.00">Submission File</text>
+<text text-anchor="middle" x="2031.56" y="-92" font-family="Helvetica,sans-Serif" font-size="10.00">(.csv)</text>
+</g>
+<!-- Submission_Generator&#45;&gt;Submission_CSV -->
+<g id="edge17" class="edge">
+<title>Submission_Generator-&gt;Submission_CSV</title>
+<path fill="none" stroke="black" d="M1794.52,-101C1794.52,-101 1976.6,-101 1976.6,-101"/>
+<polygon fill="black" stroke="black" points="1976.6,-104.5 1986.6,-101 1976.6,-97.5 1976.6,-104.5"/>
+<text text-anchor="middle" x="1870.62" y="-110.7" font-family="Helvetica,sans-Serif" font-size="9.00">Generates</text>
+</g>
+</g>
+</svg>
